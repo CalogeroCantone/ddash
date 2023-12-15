@@ -1,4 +1,4 @@
-import 'dart:core'; // Add this line
+import 'dart:core';
 
 extension ReplaceLastStringExtension on String {
   /// Creates a new string with the last occurrence of [from] replaced by [to].

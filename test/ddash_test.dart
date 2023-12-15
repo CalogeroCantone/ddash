@@ -1,22 +1,7 @@
 import 'package:ddash/ddash.dart';
-import 'package:ddash/src/string/replace_last/extension.dart';
-import 'package:ddash/src/string/upper_case/extension.dart';
-import 'package:ddash/src/string/words/extension.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('A group of tests', () {
-    final awesome = Awesome();
-
-    setUp(() {
-      // Additional setup goes here.
-    });
-
-    test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
-    });
-  });
-
   group('String', () {
     test('lastIndexOf', () {
       expect('0.0001'.lastIndexOf('f'), -1);

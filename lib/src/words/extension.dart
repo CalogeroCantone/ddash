@@ -1,4 +1,4 @@
-import 'package:ddash/src/string/words/main.dart';
+import 'package:ddash/src/words/main.dart';
 
 extension WordsStringExtension on String {
   /// Splits the string into a list of words.
