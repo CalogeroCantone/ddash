@@ -29,8 +29,10 @@ void main() {
       final result = str.replaceLast('o', 'x', 20);
       expect(result, 'Hello, World!');
     });
+  });
 
-    test('extra', () {
+  group('extra', () {
+    test('old', () {
       expect('0.0001'.replaceLast('f', ''), '0.0001');
       expect('0.0001'.replaceLast('0', ''), '0.001');
       expect('0.0001'.replaceLast(RegExp(r'0'), '7', 5), '0.0071');
@@ -38,7 +40,7 @@ void main() {
       expect('aabbcc'.replaceLast(RegExp(r'b'), 'd'), 'aabdcc');
     });
 
-    test('extra lastIndexOf', () {
+    test('lastIndexOf', () {
       expect('0.0001'.lastIndexOf('f'), -1);
       expect('0.0001'.lastIndexOf('0'), 4);
       expect('0.0001'.lastIndexOf('0', 5), 4);
