@@ -31,8 +31,8 @@ should replace the last occurrence of a pattern in a string with a specified sta
     });
   });
 
-  group('extra', () {
-    test('old', () {
+  group('legacy', () {
+    test('default dart', () {
       expect('0.0001'.replaceLast('f', ''), '0.0001');
       expect('0.0001'.replaceLast('0', ''), '0.001');
       expect('0.0001'.replaceLast(RegExp(r'0'), '7', 5), '0.0071');
