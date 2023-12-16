@@ -14,7 +14,7 @@ extension ReplaceLastStringExtension on String {
   /// 'aabbcc'.replaceLast(RegExp(r'b'), 'd'); // 'aabdcc'
   /// ```
   String replaceLast(Pattern from, String to, [int? start]) {
-    if (isEmpty) {
+    if (isEmpty || (start != null && start > length)) {
       return this;
     }
 
