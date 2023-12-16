@@ -4,21 +4,21 @@ import 'package:test/test.dart';
 void main() {
   group('upperCase', () {
     test('should convert a string to uppercase', () {
-      final str = 'hello, world!';
+      final str = '--foo-bar';
       final result = str.upperCase();
-      expect(result, 'HELLO, WORLD!');
+      expect(result, 'FOO BAR');
     });
 
     test('should return an empty string if the input is empty', () {
-      final str = '';
+      final str = 'fooBar';
       final result = str.upperCase();
-      expect(result, '');
+      expect(result, 'FOO BAR');
     });
 
     test('should return the same string if it is already in uppercase', () {
-      final str = 'HELLO, WORLD!';
+      final str = '__foo_bar__';
       final result = str.upperCase();
-      expect(result, 'HELLO, WORLD!');
+      expect(result, 'FOO BAR');
     });
   });
 }
