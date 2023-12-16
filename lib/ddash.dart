@@ -3,6 +3,11 @@
 /// More dartdocs go here.
 library;
 
-export 'src/replace_last/extension.dart';
-export 'src/upper_case/extension.dart';
-export 'src/words/extension.dart';
+// @index('./**/main.dart', f => `export '${f.path.replace('./', '')}.dart';`)
+export 'src/get/main.dart';
+export 'src/replace_last/main.dart';
+export 'src/upper_case/main.dart';
+export 'src/words/main.dart';
+// @endindex
+
+
