@@ -3,7 +3,8 @@ import 'dart:core';
 extension ReplaceLastStringExtension on String {
   /// Creates a new string with the last occurrence of [from] replaced by [to].
   ///
-  /// Finds a match of pattern by searching backward starting at [start], defaulting to the end of the string.:
+  /// Finds a match of pattern by searching backward starting at [start],
+  /// defaulting to the end of the string.:
   ///
   /// Example:
   /// ```dart
@@ -27,7 +28,7 @@ extension ReplaceLastStringExtension on String {
     if (from is String) {
       replacement = replaceRange(index, index + from.length, to);
     } else if (from is RegExp) {
-      Match match = from.matchAsPrefix(this, index)!;
+      final match = from.matchAsPrefix(this, index)!;
 
       replacement = replaceRange(match.start, match.end, to);
     }

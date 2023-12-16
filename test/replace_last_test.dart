@@ -4,28 +4,28 @@ import 'package:test/test.dart';
 void main() {
   group('replaceLast', () {
     test('should replace the last occurrence of a pattern in a string', () {
-      final str = 'Hello, World!';
+      const str = 'Hello, World!';
       final result = str.replaceLast('o', 'x');
       expect(result, 'Hello, Wxrld!');
     });
 
-    test(
-        'should replace the last occurrence of a pattern in a string with a specified start index',
+    test('''
+should replace the last occurrence of a pattern in a string with a specified start index''',
         () {
-      final str = 'Hello, World!';
+      const str = 'Hello, World!';
       final result = str.replaceLast('o', 'x', 7);
       expect(result, 'Hellx, World!');
     });
 
     test('should return the original string if the pattern is not found', () {
-      final str = 'Hello, World!';
+      const str = 'Hello, World!';
       final result = str.replaceLast('z', 'x');
       expect(result, 'Hello, World!');
     });
 
     test('should return the original string if the start index is out of range',
         () {
-      final str = 'Hello, World!';
+      const str = 'Hello, World!';
       final result = str.replaceLast('o', 'x', 20);
       expect(result, 'Hello, World!');
     });

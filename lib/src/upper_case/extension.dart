@@ -10,7 +10,7 @@ extension UpperCaseStringExtension on String {
   /// '__foo_bar__'.upperCase(); // 'FOO BAR'
   /// ```
   String upperCase() {
-    List<String?> words = this.words();
-    return words.map((e) => e!.toUpperCase()).toList().join(" ");
+    final List<String?> words = this.words();
+    return words.map((e) => e!.toUpperCase()).toList().join(' ');
   }
 }
