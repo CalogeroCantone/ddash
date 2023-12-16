@@ -2,6 +2,7 @@
   "recommendations": [
     "streetsidesoftware.code-spell-checker",
     "exodiusstudios.comment-anchors",
-    "jayfong.generate-index"
+    "jayfong.generate-index",
+    "editorconfig.editorconfig"
   ]
 }
