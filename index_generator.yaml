@@ -1,0 +1,10 @@
+index_generator:
+  exclude:
+    - '**.g.dart'
+    - '**/.**/*.dart'
+  indexes:
+    - path: lib
+      include:
+      - '**/main.dart'
+
+

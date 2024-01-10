@@ -1,13 +1,7 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
-library;
+// GENERATED CODE - DO NOT MODIFY BY HAND
 
-// @index('./**/main.dart', f => `export '${f.path.replace('./', '')}.dart';`)
+library ddash;
+
 export 'src/get/main.dart';
 export 'src/replace_last/main.dart';
 export 'src/upper_case/main.dart';
-export 'src/words/main.dart';
-// @endindex
-
-
