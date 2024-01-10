@@ -1,4 +1,4 @@
-import 'package:ddash/src/replace_last/extension.dart';
+import 'package:ddash/src/string/replace_last/extension.dart';
 import 'package:test/test.dart';
 
 void main() {

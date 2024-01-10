@@ -1,4 +1,4 @@
-import 'package:ddash/src/upper_case/extension.dart';
+import 'package:ddash/src/string/upper_case/extension.dart';
 import 'package:test/test.dart';
 
 void main() {

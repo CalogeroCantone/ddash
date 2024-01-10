@@ -1,4 +1,4 @@
-import 'package:ddash/src/.words/main.dart';
+import 'package:ddash/src/string/.words/main.dart';
 
 extension UpperCaseStringExtension on String {
   /// Creates a new string with all words converted to upper case.

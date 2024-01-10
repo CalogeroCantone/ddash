@@ -1,4 +1,4 @@
-import 'package:ddash/src/get/helpers.dart';
+import 'package:ddash/src/map/get/helpers.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -2,6 +2,6 @@
 
 library ddash;
 
-export 'src/get/main.dart';
-export 'src/replace_last/main.dart';
-export 'src/upper_case/main.dart';
+export 'src/map/get/main.dart';
+export 'src/string/replace_last/main.dart';
+export 'src/string/upper_case/main.dart';

@@ -1,4 +1,4 @@
-import 'package:ddash/src/words/extension.dart';
+import 'package:ddash/src/string/.words/extension.dart';
 import 'package:test/test.dart';
 
 void main() {
